@@ -1,0 +1,143 @@
+/* Cor de fundo geral */
+body {
+  background-color: #b8d0d9; /* Azul suave para o fundo */
+  font-family: Arial, sans-serif; /* Definindo uma fonte padrão */
+  margin: 0;
+  padding: 0;
+  color: #4a4a4a; /* Texto principal em cinza escuro para boa legibilidade */
+}
+
+/* Container geral */
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+/* Seção de Introdução */
+.intro-section {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #4a4a4a; /* Mantendo o texto principal em cinza escuro */
+}
+
+/* Efeito de digitação */
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.intro-section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333333; /* Cor mais forte para o título principal */
+  overflow: hidden; /* Esconde o texto que não foi mostrado */
+  white-space: nowrap; /* Impede que o texto quebre linha */
+  width: fit-content; /* Garante que o texto tenha o tamanho certo */
+  animation: typing 3.5s steps(30) 1s 1 normal both; /* Animação */
+}
+
+.intro-section p {
+  font-size: 1.2rem;
+  color: #7d7d7d; /* Cor mais clara para o texto secundário */
+}
+
+/* Seções de About, Projects e Contact */
+.about-section,
+.projects-section,
+.contact-section {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+/* Títulos de Seções */
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #3d5a6e; /* Azul suave e escuro para títulos */
+}
+
+.projects-section .project-card {
+  background-color: #d9e6f1; /* Azul suave para os cards */
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+  transition: transform 0.3s ease;
+}
+
+.projects-section .project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.projects-section .project-card h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #333333; /* Título do projeto com boa legibilidade */
+}
+
+.projects-section .project-card p {
+  color: #7d7d7d; /* Texto de descrição mais claro */
+  margin-bottom: 12px;
+}
+
+.projects-section .project-card a {
+  color: #4c6b8b; /* Azul suave para links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.projects-section .project-card a:hover {
+  color: #f4a300; /* Cor amarela suave para hover */
+}
+
+/* Seção de Contato */
+.contact-section a {
+  color: #4c6b8b; /* Azul suave para links de contato */
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.contact-section a:hover {
+  color: #f4a300; /* Cor amarela suave para hover */
+}
+
+.contact-section h2 {
+  color: #3d5a6e; /* Azul suave para o título da seção de contato */
+}
+
+.contact-section p {
+  color: #7d7d7d; /* Texto secundário mais claro */
+}
+
+/* Estilo de links gerais */
+a {
+  color: #4c6b8b; /* Azul suave */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #f4a300; /* Cor amarela suave para hover */
+}
+
+/* Estilos de botões gerais */
+button {
+  background-color: #4c6b8b; /* Azul suave para botões */
+  color: #ffffff; /* Texto branco */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f4a300; /* Cor amarela suave para hover */
+}

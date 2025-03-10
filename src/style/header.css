@@ -1,0 +1,32 @@
+/* Estilos para o Header */
+.header {
+  background-color: #fff;
+  padding: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para o Nav */
+.nav {
+  display: flex;
+  justify-content: space-between; /* Isso alinha logo + título à esquerda e os links à direita */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+/* Estilos para a área de links */
+.links {
+  display: flex;
+  gap: 20px; /* Adiciona espaçamento entre os links */
+}
+
+.link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* Efeito de hover nos links */
+.link:hover {
+  color: #0070f3; /* Altere a cor do texto quando passar o mouse */
+}
